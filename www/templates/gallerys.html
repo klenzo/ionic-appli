@@ -1,12 +1,12 @@
 <ion-view view-title="Galeries">
   <ion-content>
     <ion-list>
-      <ion-item ng-repeat="gallery in gallerys" href="#/app/gallerys/{{gallery.id}}">
+      <ion-item ng-repeat="gallery in gallerys" class="link_item-thumbnail" href="#/app/gallerys/{{gallery.id}}">
 
 		<a class="item item-thumbnail-left" href="#/app/gallerys/{{gallery.id}}">
 			<img src="{{gallery.img}}">
 			<h2>{{gallery.title}}</h2>
-			<p>{{gallery.title}}</p>
+			<p>{{gallery.short}}</p>
 		</a>
 
       </ion-item>

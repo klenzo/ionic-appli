@@ -7,22 +7,22 @@ angular.module('starter.controllers', [])
 .controller('GallerysCtrl', function($scope) {
 	$scope.gallerys = [
 		{ 
+			id: 1,
 			title: 'Klenzo', 
-			id: 1, 
 			img: 'img/slide.jpg', 
 			short: 'Petite Description', 
 			descript: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 		},
 		{ 
+			id: 2,
 			title: 'Klenzo2', 
-			id: 1, 
 			img: 'img/slide.jpg', 
 			short: 'Petite Description', 
 			descript: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
 		},
 		{ 
+			id: 3,
 			title: 'Klenzo2', 
-			id: 1, 
 			img: 'img/slide.jpg', 
 			short: 'Petite Description', 
 			descript: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
@@ -31,4 +31,7 @@ angular.module('starter.controllers', [])
 })
 
 .controller('GalleryCtrl', function($scope, $stateParams) {
+
+
+
 });

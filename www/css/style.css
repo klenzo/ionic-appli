@@ -27,3 +27,7 @@
 .btn_contact_box{
 	padding: 10px;
 }
+
+a.item-content{
+	padding: 0;
+}
